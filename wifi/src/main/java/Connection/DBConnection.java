@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-    private static final String JDBC_URL = "jdbc:mysql://13.124.97.74:3306/wifi?useUnicode=true&characterEncoding=utf8mb4";
+    private static final String JDBC_URL = "jdbc:mysql://mydb/wifi";
     private static final String JDBC_USER = "wifi_user";
     private static final String JDBC_PASSWORD = "wifi";
 
