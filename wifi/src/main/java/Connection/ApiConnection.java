@@ -8,7 +8,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 
 public class ApiConnection {
-	private static final String API_URL = "http://openapi.seoul.go.kr:8088/6e4f4344566d757335365041694461/json/TbPublicWifiInfo/";
+	private static final String API_URL = "http://openapi.seoul.go.kr:8088/mywifi/json/TbPublicWifiInfo/";
 	private static final OkHttpClient okHttp = new OkHttpClient();
 
 	public static String getApiResponse(int start, int end) throws IOException {
